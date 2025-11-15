@@ -1,0 +1,9 @@
+module RubyJS
+  class Token
+    attr_reader type: Symbol
+    attr_reader value: String
+    attr_reader location: Source::Location
+
+    def initialize: (type: Symbol, value: String, location: Source::Location) -> void
+  end
+end
