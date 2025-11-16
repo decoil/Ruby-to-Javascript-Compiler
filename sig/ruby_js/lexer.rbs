@@ -1,0 +1,7 @@
+module RubyJS
+  class Lexer
+    def initialize: (String source) -> void
+
+    def tokenize: () -> Array[Token]
+  end
+end

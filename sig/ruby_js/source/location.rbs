@@ -1,0 +1,11 @@
+module RubyJS
+  module Source
+    class Location
+      attr_reader line: Integer
+      attr_reader column: Integer
+      attr_reader offset: Integer
+
+      def initialize: (line: Integer, column: Integer, offset: Integer) -> void
+    end
+  end
+end
